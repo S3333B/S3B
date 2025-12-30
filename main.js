@@ -51,13 +51,13 @@ const projects = [
     ],
   },
   {
-    title: "Wargame / Cartes & interfaces",
-    desc: "Conception d’interfaces et supports : cartes, grilles, UI lisible pour outils de jeu / prototypes.",
-    tags: ["UI", "Design", "Systèmes", "Docs"],
-		thumb: "assets/projects/wargame.jfif",
+    title: "Isostar",
+    desc: "Conception et intégration",
+    tags: ["UI", "Design", "Prestashop", "Front-end"],
+		thumb: "assets/projects/isostar.jpg",
 
     links: [
-      { label: "VOIR", href: "https://fauquembergues926ad.netlify.app/" },
+      { label: "VOIR", href: "https://www.isostar.fr/" },
     ],
   },
 ];
