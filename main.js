@@ -87,3 +87,34 @@ function projectCard(p) {
 
 const root = document.getElementById("projects");
 root.innerHTML = projects.map(projectCard).join("");
+const nav = document.getElementById("nav");
+const navToggle = document.getElementById("navToggle");
+
+function closeNav(){
+  nav.classList.remove("is-open");
+  navToggle.setAttribute("aria-expanded", "false");
+}
+
+navToggle?.addEventListener("click", () => {
+  const isOpen = nav.classList.toggle("is-open");
+  navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+});
+
+// Ferme le menu quand on clique un lien
+nav?.querySelectorAll("a").forEach((a) => {
+  a.addEventListener("click", closeNav);
+});
+
+// Ferme si clic en dehors
+document.addEventListener("click", (e) => {
+  if (!nav.classList.contains("is-open")) return;
+  const target = e.target;
+  if (target instanceof Element) {
+    if (!nav.contains(target) && target !== navToggle) closeNav();
+  }
+});
+
+// Ferme avec Escape
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeNav();
+});
