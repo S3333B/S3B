@@ -13,13 +13,13 @@ const projects = [
     ],
   },
   {
-    title: "Poker MTT — Interface & logique de table",
-    desc: "Interface de table (6 joueurs), gestion des stacks, dealer, actions (check/call/raise/all-in).",
-    tags: ["React", "TypeScript", "WebSocket", "UI"],
-		thumb: "assets/projects/poker.jpg",
+    title: "Site E-commerce --BETA--",
+    desc: "Angular + Node.js (Express) sur un VPS OVH Ubuntu, servi par Nginx, paiement PayPal, livraison numérique sécurisée.",
+    tags: ["Angular", "Node.js", "Ubuntu", "Ngnix"],
+		thumb: "assets/projects/bille.png",
 
     links: [
-      { label: "VOIR", href: "https://hibbs59.itch.io/pokerroom" },
+      { label: "VOIR", href: "https://billeetpapier.art" },
     ],
   },
   {
