@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Site E-commerce --BETA--",
     desc: "Angular + Node.js (Express) sur un VPS OVH Ubuntu, servi par Nginx, paiement PayPal, livraison numérique sécurisée.",
-    tags: ["Angular", "Node.js", "Ubuntu", "Ngnix"],
+    tags: ["Angular", "Node.js", "Ubuntu", "Nginx"],
 		thumb: "assets/projects/bille.png",
 
     links: [
