@@ -41,13 +41,13 @@ const projects = [
     ],
   },
   {
-    title: "DEV Web Front-end- UI/UX — DAWAN",
-    desc: "Refonte du site au sein d'une équipe en mode Agile",
-    tags: ["UI/UX", "Pédagogie", "Produit"],
-		   thumb: "assets/projects/dawan.png",
+    title: "DEV Web Front-end- UI/UX — IDEO : Mode pour enfants",
+    desc: "Application front-end Angular (TypeScript) avec composants standalone, UI responsive sur mesure (menu burger animé, slider custom, cartes produits)",
+    tags: ["UI/UX", "Angular", "TypeScript"],
+		   thumb: "assets/projects/ideo.png",
 
     links: [
-     { label: "VOIR", href: "https://www.dawan.tv/" },
+     { label: "VOIR", href: "https://ideoenfants.netlify.app/" },
     ],
   },
   {
